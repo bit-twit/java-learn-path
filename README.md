@@ -21,17 +21,39 @@ java-learn-path
 
 ##### java.lang
 * what's the difference between procedure/function/method ?
-* what is the difference between primitives and Object in Java?
+* what is the difference between primitives and objects in Java?
 * read about
   * basic Java language: types, operators
-  * auto boxing/un-boxing
+  * auto (un)boxing
+  * how to implement hash/equals
   * exceptions : what's the difference between Error/Exception/RuntimeException ?
   * package : different modifiers public/private/protected/default
-* String class
+* `String` class
   * basic string manipulation (indexOf, lastIndexOf, trim, concat)
   * format to a String
-* Cloneable interface
-* Object methods
+* `Enum` class
+ * how to use Enum in a switch statement
+ * how to get an Enum by name
+ * how to create enums with custom fields
+* `Cloneable` interface
+* `Object`'s methods
+* polymorphism
+ * override: rules for overriding a method; what happens to exceptions ?
+ * overload: rules for overloading
+ * interfaces/abstract classes
+ * types of inner classes
+ * `{}` and `static {}` constructs
+ * class hierarchies
+  * what happens with the scope of private/protected variables defined in parent/child hierarchy
+  * `is a` VS `has a`
+* Patterns
+ * Singleton
+ * Factory
+ * Builder
+ * Command
+ * Facade
+ * Proxy
+ * Decorator
 
 ##### JUnit
 * create JUnit tests using Eclipse
@@ -46,17 +68,26 @@ java-learn-path
 
 ##### java.util
 * Pattern and Matcher classes - build some regular expression examples
+* why are hash and equals important, especially for collections
+* basic collection types and hierachies
+ * Set
+ * Map
+ * List
+ * Array
+ * Vector
+ * Queue
+* Calendar class : how to get current date, how to get date based on timezone
 
-##### java.collections
-
-##### java threads
+##### java.util.concurrent
 * Runnable interface
 * how to create threads
-* Thread Executors
+* Executors
 
 ### Advanced stuff
 
 ##### Generics
+* how does type erasure works
+* implement generic class hierarchies
 
 ##### use Maven to create a basic JAR
 * download Maven
@@ -67,7 +98,13 @@ java-learn-path
   * Maven default lifecycles
   * Maven JAR archetype
 * create a Maven executable JAR project and run it
+* Mini-projects
   * add JODA TIME 3rd party library and use it in your JAR, to show formatted current date to the console
+  * add JOG4J and SJFJ in your pom.xml and use it throughout your code
+  * add tests for your code
+  * add commons packages from Apache to your project and add code/tests for various functions
+  * add JAXB dependency and use it to parse a simple XML file/content
+  * add Jackson dependency and use it to parse simple JSON file/content
 
 ##### JVM memory management
 * what is a classloader
@@ -132,3 +169,32 @@ java-learn-path
       * ORM/Hibernate
       * Connection pool (c3p0, commons-pool, Tomcat 7 pool, dbcp)
   * EL language in JSP
+
+### Frontend stuff
+
+##### JS
+* functions
+* higher-order functions
+* objects
+* how to handle DOM events
+ * event bubbling
+* `eval()`
+* scope of variables, global scope
+* prototype
+* extending objects
+* `underscore.js`
+* `angujar.js`
+
+##### HTML
+* basic HTML elements
+* 
+
+##### CSS
+(TBD)
+
+### Admin stuff
+(TBD)
+
+### Methodologies stuff
+(TBD)
+
