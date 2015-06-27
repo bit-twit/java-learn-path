@@ -14,10 +14,8 @@ Write a console program that reads an input *.txt file and outputs the number of
 
 ### Example
 
-`
-$ java WordsAndLines.clas test.txt
-;;=> [filename: 'test.txt', nrLines: '200', nrWords:'1200']
-`
+    $ java WordsAndLines.clas test.txt
+    ;;=> [filename: 'test.txt', nrLines: '200', nrWords:'1200']
 
 ### Further reading
 
@@ -36,20 +34,16 @@ Build a console program that reads an input file with numbers and writes an outp
 
 ### Example
 
-`
-;; input file format
-nr_numbers
-nr1 nr2 nr3 ...
+    ;; input file format
+    nr_numbers
+    nr1 nr2 nr3 ...
 
-;; output file format
-nr_numbers
-nr1 nr2 nr3 ...
-`
+    ;; output file format
+    nr_numbers
+    nr1 nr2 nr3 ...
 
-`
-$ java -jar bubblesort.jar input.txt
-;; => Results written to output.txt
-`
+    $ java -jar bubblesort.jar input.txt
+    ;; => Results written to output.txt
 
 ### Further reading
 
@@ -62,12 +56,14 @@ Build a console program that converts between RON, USD, and EUR in realtime (usi
 ### Details
 
 * The program should first show a menu with options:
-** convert from RON -> USD
-** convert from RON -> EUR
-** convert from USD -> RON
-** convert from USD -> EUR
-** convert from EUR -> RON
-** convert from EUR -> USD
+
+  + convert from RON -> USD
+  + convert from RON -> EUR
+  + convert from USD -> RON
+  + convert from USD -> EUR
+  + convert from EUR -> RON
+  + convert from EUR -> USD
+
 * Build a function that keeps showing a menu and waits for the user to input an option
 * Build a function that receives/parses the RON,EUR,USD currency values from a third-party service (Ex: parse the HTML page from www.bnr.ro)
 * Build a Converter class with overloaded functions for all three currency transformations (Hint: define numeric Classes for each of the currency, wrapping a Long value)

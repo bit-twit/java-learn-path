@@ -18,10 +18,8 @@ Write a console program that reads an image (bmp or JPEG) and computes the avera
 
 ### Example
 
-`
-$ java -jar image_comp_average.jar image.png
-;;=> (233,204,123)
-`
+    $ java -jar image_comp_average.jar image.png
+    ;;=> (233,204,123)
 
 ### Further reading
 
@@ -45,10 +43,8 @@ Build a console program that reads a coloured image and saves it in grayscale fo
 
 ### Example
 
-`
-$ java -jar image_grayscale.jar initial_image.jpg
-;; => Results written to grayscale_image.jpg
-`
+    $ java -jar image_grayscale.jar initial_image.jpg
+    ;; => Results written to grayscale_image.jpg
 
 ### Further reading
 
